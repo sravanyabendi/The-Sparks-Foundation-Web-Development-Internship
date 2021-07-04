@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background:linear-gradient(rgba(184, 247, 148, 0.7),rgba(70, 70, 68, 0.7));
+}
+.navbar{
+  height:13vh;
+  width:100%;
+  
+}
+nav{
+position: fixed;
+width: 100%;
+z-index:1;
+}
+nav ul{
+overflow:hidden;
+transition:1s;
+width: 100%;
+
+}
+.navbar h1{
+text-align: center;
+font-size: 9vh;
+margin-top: 4vh;
+font-weight: bolder;
+width:22vw;
+height:14vh;
+margin-left:1vw;
+border-radius: 45%;
+border-bottom: 16px solid rgb(22, 22, 22);
+background:linear-gradient(rgba(184, 247, 148, 0.7),rgba(70, 70, 68, 0.7));
+}
+.navbar h1 a{
+text-decoration: none;
+color: rgb(22, 22, 21);
+
+
+}
+.navbar ul{
+  height: 13vh;
+  width: 51vw;
+  list-style: none;
+  padding:5vh 5vw;
+  position: relative;
+  float:right;
+  margin-top: -15vh;
+ 
+}
+nav.black ul{
+background-color: rgb(176, 238, 190);
+width:100%;
+color:white;
+margin-top:-19.5vh;
+border-bottom:7px solid black;
+padding:4vh 28vw;
+border-radius: 18px;
+}
+.home a{
+margin-left: 5vw;
+margin-top: 1vh;
+}
+.loan a{
+margin-left: 2.5vw;
+margin-top: 1vh;
+}
+.about{
+margin-left: -2vw;
+}
+.transact{
+margin-left: 1vw;
+}
+.viewcustomers a{
+margin-left:0.6vw;
+}
+.navbar ul li{
+  display: inline-block;
+  height: 5.5vh;
+  width: 13vw;
+  
+}
+
+.navbar ul li a{
+color: rgb(19, 18, 18);
+text-decoration: none;
+font-size: 2.6vh;
+padding:1vh 1vw;
+position: relative;
+margin-top: 2vh;
+
+}
+.navbar ul li a:hover{
+box-shadow: 2px 2px 5px 3px rgb(17, 17, 17);
+}
+.transfer{
+  text-align: center;
+  padding:2vh 10vw;
+  margin-top: 5vh;
+}
+.transfer h1{
+  margin-left: 6vh;
+}
+.transfer table{
+margin-top: 7vh;
+  width:80vw;
+  height:60vh;
+  font-size: 3vh;
+  text-align: center;
+  box-shadow: 10px 10px 12px black;
+}
+.transfer thead{
+  background-color: black;
+  color:white;
+ width:9vw;
+ height: 4vh;
+}
+table th, table td{
+  text-align: center;
+  padding: 2px 20px;
+  height:6vh;
+  }
+tbody tr:nth-child(odd){
+  background: #8ed361;
+}
+tbody tr:nth-child(even) {
+  background: #b3b2ae;
+}
+.btn{
+  box-shadow: inset 5px 4px 12px black;
+ padding:1vh 4vw;
+ color: black;
+ border-radius: 2px;
+  text-decoration: none;
+}
+.btn:hover{
+ border-radius: 10px;
+  color:white;
+  background-color: rgb(19, 18, 18);
+}
